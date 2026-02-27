@@ -173,7 +173,7 @@ no-sdlmixer-wavpack-dsd = []
 no-sdlmixer-wavpack-shared = []
 
 [dependencies]
-sdl3-sys = { version = "0.6.0", path = "../sdl3-sys" }
+sdl3-sys = { path = "../sdl3-sys" }
 
 [build-dependencies.cmake]
 version = "0.1"

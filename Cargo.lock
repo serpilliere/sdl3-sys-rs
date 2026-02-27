@@ -379,7 +379,7 @@ dependencies = [
 
 [[package]]
 name = "sdl3-main"
-version = "0.6.0"
+version = "0.6.0-fix-keyup"
 dependencies = [
  "libtest-mimic-collect",
  "parking_lot",
@@ -409,11 +409,11 @@ dependencies = [
 
 [[package]]
 name = "sdl3-src"
-version = "3.4.2"
+version = "3.4.2-fix-keyup"
 
 [[package]]
 name = "sdl3-sys"
-version = "0.6.1+SDL-3.4.2"
+version = "0.6.1+SDL-3.4.2-fix-keyup"
 dependencies = [
  "ash",
  "cc",
